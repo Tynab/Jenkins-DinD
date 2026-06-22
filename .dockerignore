@@ -1,0 +1,8 @@
+# Chỉ Dockerfile quyết định nội dung image; loại metadata và tài liệu khỏi build context.
+.git
+.github
+.gitattributes
+README.md
+compose.yaml
+
+# Tóm tắt: context nhỏ hơn giúp build nhanh và không vô tình gửi dữ liệu Git cho daemon.
