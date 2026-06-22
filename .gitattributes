@@ -1,2 +1,4 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Chuẩn hóa mọi tệp văn bản về LF để script và Dockerfile hoạt động đồng nhất đa nền tảng.
+* text=auto eol=lf
+
+# Tóm tắt: Git quản lý line ending; tệp nhị phân vẫn được tự động nhận diện.
